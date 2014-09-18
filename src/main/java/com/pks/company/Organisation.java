@@ -1,22 +1,26 @@
 package com.pks.company;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-/** @author FedericoL */
 public class Organisation {
 
-    private List<Employee> employees = new ArrayList<Employee>();
+    private List<Employee> employees = new ArrayList<>();
+
+    public static Organisation instanceFromCSV(File csvFile) {
+        return null;
+    }
+
+    public void addEmployee(Employee employee) {
+
+    }
 
     public List<Employee> getEmployees() {
         return null;
     }
 
-    public void setEmployees(List<Employee> employees) {
-
-    }
-
-    public Employee getHighestPaidEmployee() {
+    public List<Employee> getHighestPaidEmployees(int limit) {
         return null;
     }
 
